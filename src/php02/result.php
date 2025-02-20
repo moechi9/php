@@ -30,7 +30,7 @@ $comparison = searchCityTime($city);
             <div class="result-cards">
                 <div class="result-card">
                     <div class="result-card__img-wrapper">
-                        <img class="result-card__img" src="img/<?php echo $tokyo['img'] ?>" alt="国旗">
+                        <img class="result-card__img" src="img/national_flag_img/<?php echo $tokyo['img'] ?>" alt="国旗">
                     </div>
                     <div class="result-card__body">
                         <p class="result-card__city"><?php echo $tokyo['name'] ?></p>
@@ -39,7 +39,7 @@ $comparison = searchCityTime($city);
                 </div>
                 <div class="result-card">
                     <div class="result-card__img-wrapper">
-                        <img class="result-card__img" src="img/" alt="国旗">
+                        <img class="result-card__img" src="img/national_flag_img/<?php echo $comparison['img']?>" alt="国旗">
                     </div>
                     <div class="result-card__body">
                         <p class="result-card__city"><?php echo $comparison['name'] ?></p>
