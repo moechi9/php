@@ -26,7 +26,7 @@ $cities = [
         'img' => 'british.jpg'
     ],
     [
-        'name' => 'ヨハネスブルグ',
+        'name' => 'ヨハネスブルク',
         'time_zone' => 'Africa/Johannesburg',
         'img' => 'south-africa.jpg'
     ],
