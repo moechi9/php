@@ -5,6 +5,7 @@ $random_numbers = array_rand($status_codes, 4);
 foreach ($random_numbers as $index) {
     $options[] = $status_codes[$index];
 }
+
 $question = $options[mt_rand(0, 3)];
 
 ?>
